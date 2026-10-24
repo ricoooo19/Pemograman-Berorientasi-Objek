@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AplikasiKasir" default="default" basedir=".">
+    <description>Builds, tests, and runs the project AplikasiKasir.</description>
+    <property file="nbproject/project.properties"/>
+
+    <target name="init">
+        <mkdir dir="${build.classes.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <target name="compile" depends="init" description="Compile Java source files">
+        <javac srcdir="${src.dir}" destdir="${build.classes.dir}" includeantruntime="false" encoding="${source.encoding}">
+            <classpath path="${javac.classpath}"/>
+        </javac>
+    </target>
+
+    <target name="jar" depends="compile" description="Package into executable JAR">
+        <jar destfile="${dist.jar}" basedir="${build.classes.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run" depends="compile" description="Run application">
+        <java classname="${main.class}" classpath="${build.classes.dir}" fork="true">
+        </java>
+    </target>
+
+    <target name="clean" description="Clean build artifacts">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+
+    <target name="default" depends="jar"/>
+</project>

@@ -1,0 +1,24 @@
+==================================================
+                 MINIMARKET RIKO
+              Jl.SENDANG REJO KEC.PARENGAN
+==================================================
+No. Transaksi : TRX-0001            
+Waktu         : 24-10-2026 17:11:42 
+Kasir         : Kasir-01            
+--------------------------------------------------
+Produk                Qty       Harga    Subtotal
+--------------------------------------------------
+Indomie Goreng Spesial    1  Rp3.500,00  Rp3.500,00
+TWS Earphone Bluetooth 5.3    1 Rp175.000,00 Rp175.000,00
+--------------------------------------------------
+Total Kotor                  :        Rp178.500,00
+Total Hemat (Diskon)         :             -Rp0,00
+PPN (11%)                    :         Rp19.635,00
+==================================================
+TOTAL BAYAR                  :        Rp198.135,00
+TUNAI / BAYAR                :        Rp200.000,00
+KEMBALIAN                    :          Rp1.865,00
+==================================================
+Catatan:
+Terima Kasih! Selamat Berbelanja Kembali.
+==================================================
